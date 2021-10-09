@@ -160,6 +160,21 @@ header nav li a:hover {
 
 
 /*shared section styles --end*/
+
+/*break point to add a section with a cool fixed image -- start*/
+.page-break-bg {
+    min-height: 50vh;
+    border: 1px solid #000;
+    background-image: url('../images/nyc-img.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+/*break point to add a section with a cool fixed image -- end*/
+
+
 /*projects section style -- start*/
 
 .projects-list {
