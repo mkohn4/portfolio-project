@@ -2,6 +2,7 @@
     --white: #FFF;
     --grey: #c6cccc;
     --navy: #024e76;
+    --cream: #FFFDD0;
 }
 
 * {
@@ -32,7 +33,7 @@ header h1 {
     font-weight: bold;
     font-size: 36px;
     margin: 0;
-    color: #FFFDD0;
+    color: var(--cream);
     text-shadow: 2px 2px #000;
 }
 /*style links*/
@@ -54,7 +55,7 @@ header nav li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.2em;
-    color: #FFFDD0;
+    color: var(--cream);
     text-shadow: 2px 2px #000;
 
 }
@@ -94,7 +95,7 @@ header nav li a:hover {
     font-size: 40px;
 }
 .hero-cta > * {
-    color: var(--white);
+    color: var(--cream);
 }
 
 /*shared section styles -- start*/
@@ -139,7 +140,7 @@ header nav li a:hover {
 /*style p tags in first two sections -- start*/
   .intro p {
     line-height: 1.7;
-    color: #39a6b2;
+    color: var(--navy);
     font-size: 20px; 
     text-align: right;
 }
@@ -159,7 +160,7 @@ header nav li a:hover {
 
 
 /*shared section styles --end*/
-/*steps section style -- start*/
+/*projects section style -- start*/
 
 .projects-list {
     display: flex;
@@ -189,7 +190,7 @@ header nav li a:hover {
     border: 3px solid var(--navy);
 }
 
-/*steps section style -- end*/
+/*projects section style -- end*/
 
 /*Reach out section -- start*/
 .contact {
